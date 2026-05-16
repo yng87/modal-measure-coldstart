@@ -5,6 +5,7 @@ Modal 上で ruri-v3 の cold start を TEI / Sentence Transformers / snapshot o
 ## Build
 
 ```bash
+cp .env.example .env
 uv sync
 uv run modal deploy apps/tei.py
 uv run modal deploy apps/transformers_app.py
